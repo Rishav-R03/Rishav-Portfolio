@@ -1,0 +1,7 @@
+*{
+  /* border will be consider to calculate width and margin */
+  box-sizing: border-box; 
+  margin: 0;
+  padding:0;
+  font-family: "Outfit",Arial, Helvetica, sans-serif;
+}
