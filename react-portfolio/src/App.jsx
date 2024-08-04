@@ -4,13 +4,14 @@ import styles from "./App.module.css";
 // import { Experience } from "./components/Experience/Experience";
 // import { Hero } from "./components/Hero/Hero";
 import { Navbar } from "./components/Navbar/Navbar";
+import {Hero} from "./components/Hero/Hero";
 // import { Projects } from "./components/Projects/Projects";
 
 function App() {
   return (
     <div className={styles.App}>
       <Navbar />
-      {/* <Hero /> */}
+      <Hero/>
       {/* <About />
       <Experience />
       <Projects />
